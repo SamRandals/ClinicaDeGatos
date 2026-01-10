@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+#root{
+height: 100dvh;
+overflow-y: auto;;
+}
+.dark{
+  /* DARK MODE — Pastel */
+  background: var(dark);
+    padding: 0;  
+    margin: 0;
+    text-align: center;
+    color: var(--text-color);
+
+--bg-color:        #0f1b2d;   /* Azul noche pastel oscuro */
+--dark-bg-color:   #1b2c40;   /* Azul grisáceo pastel */
+--shadow-color:    #2b3d55;   /* Sombra pastel suave */
+--text-color:      #e8f1ff;   /* Blanco azulado suave */
+--sec-text-color:  #9fb3c8;   /* Gris pastel azulado */
+
+}

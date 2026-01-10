@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@import "./styles/titlesStyles.css";
+@import "./styles/animationsStyles.css";
+
+
+
+:root {
+  background: var(--dark-bg-color);
+  padding: 0;  
+  margin: 0;
+  text-align: center;
+  color: var(--text-color);
+  
+  /* bg colors  */
+  --bg-color:#0490c9;
+  --dark-bg-color:#0a729b;  
+  --shadow-color:#c6e4ef;
+  --text-color:#ffff;
+  --sec-text-color:#292929;
+
+}
+
+.dark{
+  /* DARK MODE — Pastel */
+    background: var(--dark-bg-color);
+    padding: 0;  
+    margin: 0;
+    text-align: center;
+    color: var(--text-color);
+
+--bg-color:        #0f1b2d;   /* Azul noche pastel oscuro */
+--dark-bg-color:   #1b2c40;   /* Azul grisáceo pastel */
+--shadow-color:    #2b3d55;   /* Sombra pastel suave */
+--text-color:      #e8f1ff;   /* Blanco azulado suave */
+--sec-text-color:  #9fb3c8;   /* Gris pastel azulado */
+
+}
+
+@utility bg-base {
+  background-color: var(--bg-color);
+}
+
+@utility bg-base-dark {
+  background-color: var(--dark-bg-color);
+}
+
+@utility text-base {
+  color: var(--text-color);
+}
+
+@utility text-sec {
+  color: var(--sec-text-color);
+}
+
+@utility shadow-soft {
+  box-shadow: 0 2px 10px var(--shadow-color);
+}
