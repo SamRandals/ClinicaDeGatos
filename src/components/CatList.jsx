@@ -31,7 +31,7 @@ export default function CatList({ catData }) {
 
                 <p className="p">Lista de gatos</p>
 
-                <div className="grid grid-cols-1 w-full md:grid-cols-3 overflow-y-auto border h-full md:h-90">
+                <div className="grid grid-cols-1 w-full md:grid-cols-3 overflow-y-auto border h-full md:h-90 gap-3">
 
                     {
                         filteredCats.map(data => (

@@ -6,6 +6,8 @@ import FormCat from './components/formCat'
 import CatList from './components/CatList'
 import Home from './components/Home'
 import AboutUs from './components/AboutUs'
+import Direccion from './components/Direccion'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -49,6 +51,8 @@ function App() {
     {option === "home" && (<>
       <Home></Home>
       <AboutUs></AboutUs>
+      <Direccion></Direccion>
+      <Footer></Footer>
     </>)}
       
     

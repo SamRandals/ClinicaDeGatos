@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Branding } from "../assets";
 
 export default function Header({changeOption}){
     const[open, setOpen]=useState(false);
@@ -6,7 +7,7 @@ export default function Header({changeOption}){
 return(<>
 <header className="flex fixed h-15 items-center justify-between shadow-xl bg-base w-full z-10">
 <div className="logo flex overflow-hidden w-40 h-full ml-10">
-    <img src="/images/logo.png" alt="#" className="w-full h-full object-cover" />
+    <img src={Branding.logo} alt="#" className="w-full h-full object-cover" />
 </div>
 
 <h2 className="h2">Clinica de Gatos</h2>

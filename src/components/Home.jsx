@@ -1,4 +1,5 @@
 import AnimationSettings from "../animations/AnimationSettings"
+import { Veterinarios, Branding } from "../assets"
 
 export default function Home(){
     return(<>
@@ -10,7 +11,7 @@ export default function Home(){
 
             <h2 className="startTitle flex text-6xl md:text-8xl absolute  mx-auto font-bold">Veterinaria Osfort</h2>
 
-            <img src="/images/catportrait2.jpg" alt=""  className="w-full h-full object-cover object-top"/>
+            <img src={Branding.portadaCat} alt="Logo"  className="w-full h-full object-cover object-top"/>
         </div>
 
         
@@ -30,7 +31,7 @@ export default function Home(){
             </AnimationSettings>
             <AnimationSettings type="fade-in" direction="right" duration=".5s">
                 <div className="flex  w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
-                    <img src="/veterinarios/persona.jpg" alt="" className="w-full h-full object-cover" />
+                    <img src={Veterinarios.veterinario1} alt="" className="w-full h-full object-cover" />
                 </div>
             </AnimationSettings>
             {/* divid items */}
@@ -38,7 +39,7 @@ export default function Home(){
              {/* divid items */}
             <AnimationSettings type="fade-in" direction="right" duration=".8s">
                <div className="flex w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
-                    <img src="/veterinarios/persona2.jpg" alt="" className="w-full h-full object-cover" />
+                    <img src={Veterinarios.veterinario2} alt="" className="w-full h-full object-cover" />
                 </div>
             </AnimationSettings>
             <AnimationSettings type="fade-in" direction="right" duration=".5s">
@@ -57,14 +58,14 @@ export default function Home(){
             </AnimationSettings>
             <AnimationSettings type="fade-in" direction="right" duration=".5s">
                 <div className="flex  w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
-                    <img src="/veterinarios/persona3.jpg" alt="" className="w-full h-full object-cover" />
+                    <img src={Veterinarios.veterinario3} alt="" className="w-full h-full object-cover" />
                 </div>
             </AnimationSettings>
             {/* divid items */}
              {/* divid items */}
             <AnimationSettings type="fade-in" direction="right" duration=".8s">
                <div className="flex  w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
-                    <img src="/veterinarios/persona4.jpg" alt="" className="w-full h-full object-cover" />
+                    <img src={Veterinarios.veterinario4} alt="" className="w-full h-full object-cover" />
                 </div>
             </AnimationSettings>
             <AnimationSettings type="fade-in" direction="right" duration=".5s">
@@ -82,7 +83,7 @@ export default function Home(){
             </AnimationSettings>
             <AnimationSettings type="fade-in" direction="right" duration=".5s">
                 <div className="flex w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
-                    <img src="/veterinarios/persona5.jpg" alt="" className="w-full h-full object-cover" />
+                    <img src={Veterinarios.veterinario5} alt="" className="w-full h-full object-cover" />
                 </div>
             </AnimationSettings>
             {/* divid items */}
