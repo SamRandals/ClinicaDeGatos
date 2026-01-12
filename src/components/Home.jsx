@@ -1,34 +1,93 @@
-
+import AnimationSettings from "../animations/AnimationSettings"
 
 export default function Home(){
     return(<>
     
-        <main className="md:w-220 md:m-auto">
-            <section className="p2 m-2">
-                <h1 className="h1 my-10">Hola bienvenido a la Clinica de gatos!</h1>
-                <p className="p">Este software permite a los veterinarios de gatos tener un registro sobre la salud del felino, crear informes, dar de altas, y estructurar de manera eficiente a los gatitos!</p>
-            </section>
-            <section className="bg-base">
-                <div className="w-full h-120 md:h-dvh">
-                    <img src="https://purina.com.co/sites/default/files/2025-05/razas-de-gatos.jpg" alt=""  className="w-full h-full"/>
+
+    <main className="h-auto   bg-dark shadow-md mx-auto">
+
+        <div className="flex relative w-full h-dvh items-center">
+
+            <h2 className="startTitle flex text-6xl md:text-8xl absolute  mx-auto font-bold">Veterinaria Osfort</h2>
+
+            <img src="/images/catportrait2.jpg" alt=""  className="w-full h-full object-cover object-top"/>
+        </div>
+
+        
+
+    </main>
+
+    <section className="flex flex-col  md:w-[65dvw] mx-auto bg-base">
+        <h2 className="text-4xl my-4">Veterinarios</h2>
+        <h3 className="text-3xl my-2">Hacemos lo mejor para los mejores</h3>
+        <h4 className="text-md mb-10">Tus mascotas son lo mas importante, por eso nos comprometemos a cuidarlos.</h4>
+        <div className="grid grid-cols-2 items-center text-sm p-2 md:text-lg">
+            {/* divid items */}
+            <AnimationSettings type="fade-in" direction="right" duration=".8s">
+              <div className="flex flex-col items-center justify-center border-r">
+                 <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam at odit exercitationem itaque, nam nihil reiciendis impedit assumenda sint sapiente recusandae quia libero quam? Mollitia quis quia  architecto et laboriosam.</h2>
+              </div>
+            </AnimationSettings>
+            <AnimationSettings type="fade-in" direction="right" duration=".5s">
+                <div className="flex  w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
+                    <img src="/veterinarios/persona.jpg" alt="" className="w-full h-full object-cover" />
                 </div>
+            </AnimationSettings>
+            {/* divid items */}
+            
+             {/* divid items */}
+            <AnimationSettings type="fade-in" direction="right" duration=".8s">
+               <div className="flex w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
+                    <img src="/veterinarios/persona2.jpg" alt="" className="w-full h-full object-cover" />
+                </div>
+            </AnimationSettings>
+            <AnimationSettings type="fade-in" direction="right" duration=".5s">
+               
+                <div className="flex flex-col items-center justify-center border-l">
+                 <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam at odit exercitationem itaque, nam nihil reiciendis impedit assumenda sint sapiente recusandae quia libero quam? Mollitia quis quia  architecto et laboriosam.</h2>
+              </div>
+            </AnimationSettings>
+            {/* divid items */}
 
-               <div className="p-2 m-2">
-                 <h3 className="h3 my-4">Sobre nosotros</h3>
-                <p className="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium cupiditate necessitatibus voluptate, beatae odio neque quaerat eligendi similique enim earum fuga qui? Quis voluptates deleniti temporibus sunt voluptas provident.</p>
-               </div>
-
-            </section>
-            <section className="bg-base">
-                <h3 className="h3 mb-4">Proposito</h3>
-                <p className="p">Queremos ayudara los veterinarios a tener un mejor contorl sobre la vida de un felino con problemas de salud, donde podra verficiar cada uno de sus gatos registrados en el resinto/veterinario para un buen control de cada uno de estos gatos.
-                Podra verificar que enfermedades tiene, que diagnostico se hizo y si esta apto para dar de alta o no.
-                Tambien podra modificar si algun gato esta con problemas de salud graves y requiere de una atencion inmediata con alertas personalizadas 
-
-                </p>
-            </section>
-
-        </main>
-
+             {/* divid items */}
+            <AnimationSettings type="fade-in" direction="right" duration=".8s">
+              <div className="flex flex-col items-center justify-center border-r">
+                 <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam at odit exercitationem itaque, nam nihil reiciendis impedit assumenda sint sapiente recusandae quia libero quam? Mollitia quis quia  architecto et laboriosam.</h2>
+              </div>
+            </AnimationSettings>
+            <AnimationSettings type="fade-in" direction="right" duration=".5s">
+                <div className="flex  w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
+                    <img src="/veterinarios/persona3.jpg" alt="" className="w-full h-full object-cover" />
+                </div>
+            </AnimationSettings>
+            {/* divid items */}
+             {/* divid items */}
+            <AnimationSettings type="fade-in" direction="right" duration=".8s">
+               <div className="flex  w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
+                    <img src="/veterinarios/persona4.jpg" alt="" className="w-full h-full object-cover" />
+                </div>
+            </AnimationSettings>
+            <AnimationSettings type="fade-in" direction="right" duration=".5s">
+              
+                 <div className="flex flex-col items-center justify-center border-l">
+                 <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam at odit exercitationem itaque, nam nihil reiciendis impedit assumenda sint sapiente recusandae quia libero quam? Mollitia quis quia  architecto et laboriosam.</h2>
+              </div>
+            </AnimationSettings>
+            {/* divid items */}
+             {/* divid items */}
+            <AnimationSettings type="fade-in" direction="right" duration=".8s">
+              <div className="flex flex-col items-center justify-center border-r">
+                 <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam at odit exercitationem itaque, nam nihil reiciendis impedit assumenda sint sapiente recusandae quia libero quam? Mollitia quis quia  architecto et laboriosam.</h2>
+              </div>
+            </AnimationSettings>
+            <AnimationSettings type="fade-in" direction="right" duration=".5s">
+                <div className="flex w-25 h-25 md:w-50 md:h-50 overflow-hidden mx-auto rounded-full">
+                    <img src="/veterinarios/persona5.jpg" alt="" className="w-full h-full object-cover" />
+                </div>
+            </AnimationSettings>
+            {/* divid items */}
+             
+        </div>    
+    </section>
     </>)
 }

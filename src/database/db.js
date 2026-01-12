@@ -2,13 +2,14 @@ import Dexie from "dexie";
 
 export const db = new Dexie("CatsDB");
 
-db.version(20).stores({
+db.version(1).stores({
   cats: `
     ++id,
     nameCat,
     raceCat,
     ageCat,
     sickCat,
+    status,
     diagnostic
   `
 });

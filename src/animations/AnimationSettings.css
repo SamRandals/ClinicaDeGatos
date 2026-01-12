@@ -1,0 +1,59 @@
+/* ---- ESTADO BASE ---- */
+.anim-container > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity var(--duration) ease-out,
+              transform var(--duration) ease-out;
+}
+
+/* ---- AL ENTRAR EN VIEWPORT ---- */
+.anim-visible > * {
+  opacity: 1;
+  transform: translate(0);
+}
+
+/* ============================================
+   TIPOS DE ANIMACIÓN + DIRECCIONES
+   ============================================ */
+
+/* ------------------ 1. FADE ------------------ */
+.anim-fade-up > * {
+  transform: translateY(20px);
+}
+.anim-fade-down > * {
+  transform: translateY(-20px);
+}
+.anim-fade-left > * {
+  transform: translateX(20px);
+}
+.anim-fade-right > * {
+  transform: translateX(-20px);
+}
+
+/* ------------------ 2. SLIDE ------------------ */
+.anim-slide-up > * {
+  transform: translateY(40px);
+}
+.anim-slide-down > * {
+  transform: translateY(-40px);
+}
+.anim-slide-left > * {
+  transform: translateX(40px);
+}
+.anim-slide-right > * {
+  transform: translateX(-40px);
+}
+
+/* ------------------ 3. ZOOM ------------------ */
+.anim-zoom-up > * {
+  transform: scale(0.8) translateY(20px);
+}
+.anim-zoom-down > * {
+  transform: scale(0.8) translateY(-20px);
+}
+.anim-zoom-left > * {
+  transform: scale(0.8) translateX(20px);
+}
+.anim-zoom-right > * {
+  transform: scale(0.8) translateX(-20px);
+}

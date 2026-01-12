@@ -4,15 +4,15 @@ export default function Header({changeOption}){
     const[open, setOpen]=useState(false);
     
 return(<>
-<header className="flex h-15 items-center justify-between shadow-xl bg-base w-full relative">
-<div className="logo flex overflow-hidden w-20 h-full ml-10">
-    <img src="https://www.pngall.com/wp-content/uploads/5/Cat-Anime-Girl-PNG-Clipart.png" alt="#" className="w-full h-full object-cover" />
+<header className="flex fixed h-15 items-center justify-between shadow-xl bg-base w-full z-10">
+<div className="logo flex overflow-hidden w-40 h-full ml-10">
+    <img src="/images/logo.png" alt="#" className="w-full h-full object-cover" />
 </div>
 
 <h2 className="h2">Clinica de Gatos</h2>
 
 <nav className="hidden md:flex items-center gap-10 h-full w-auto justify-between mr-5">
-    <button className="h-full transition duration-500 ease-in hover:border-b hover:border-current">Inicio</button>
+    <button className="h-full transition duration-500 ease-in hover:border-b hover:border-current" onClick={()=>changeOption("home")}>Inicio</button>
     <button className="h-full transition duration-500 ease-in hover:border-b hover:border-current" onClick={()=>changeOption("admingatos")}>Administrar Gatos</button>
     <button className="h-full transition duration-500 ease-in hover:border-b hover:border-current">Informes</button>
     <button className="h-full transition duration-500 ease-in hover:border-b hover:border-current">Sobre nosotros</button>

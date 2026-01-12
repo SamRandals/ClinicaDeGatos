@@ -114,3 +114,15 @@
     font-size: 1.15rem;
   }
 }
+
+
+
+/* Estilos de Home */
+.startTitle{
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
